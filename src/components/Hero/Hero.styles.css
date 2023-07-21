@@ -1,0 +1,109 @@
+.hero-header {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 550px;
+  width: 100%;
+  background-color: #495e57;
+  font-family: "Markazi Text", serif;
+  color: #edefee;
+  padding: 1rem;
+}
+
+.hero {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+.hero-container {
+  width: 40%;
+}
+
+.image-container img {
+  width: 350px;
+  height: 400px;
+  object-fit: cover;
+  border-radius: 1rem;
+}
+
+.hero-title {
+  font-size: 4rem;
+  color: #c3a50f;
+  width: 100%;
+  margin-bottom: 1rem;
+}
+
+.hero-subtitle {
+  font-size: 2.5rem;
+  width: 100%;
+  margin-bottom: 1rem;
+}
+
+.hero-text {
+  font-size: 2rem;
+  width: 80%;
+  margin-bottom: 1rem;
+}
+
+button {
+  font-family: "Karla", sans-serif;
+  font-weight: 500;
+  background-color: #F5CE14;
+  color: #000;
+  font-size: 1.2rem;
+  padding: 1rem 2rem;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: all 0.3s ease-in-out;
+  border-radius: 1rem;
+  margin-top: 1rem;
+}
+
+button:hover {
+  background-color: #c3a50f;
+  color: #fff;
+}
+
+@media (max-width: 768px) {
+  .hero-header {
+    height: 100%;
+    flex-direction: column;
+  }
+  .hero {
+    flex-direction: column;
+  }
+
+  .hero-container {
+    width: 80%;
+  }
+
+  .image-container img {
+    margin-top: 2rem;
+    margin-bottom: 1rem;
+  }
+
+  .hero-title {
+    font-size: 3rem;
+    margin-top: 2rem;
+    margin-bottom: 0.5rem;
+  }
+
+  .hero-subtitle {
+    font-size: 2rem;
+    margin-bottom: 1rem;
+  }
+
+  .hero-text {
+    font-size: 1.5rem;
+    margin-bottom: 1rem;
+  }
+
+  button {
+    font-size: 1rem;
+    padding: 0.8rem 1.6rem;
+    margin-bottom: 2rem;
+  }
+}

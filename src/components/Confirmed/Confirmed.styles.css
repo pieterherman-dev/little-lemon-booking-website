@@ -1,0 +1,15 @@
+.confirmed-header {
+    background-color: #4CAF50;
+    color: white;
+    text-align: center;
+    padding: 20px;
+}
+
+.confirmed-section {
+    padding: 50px;
+}
+
+.confirmed-h1 {
+    font-size: 36px;
+    margin-bottom: 20px;
+}

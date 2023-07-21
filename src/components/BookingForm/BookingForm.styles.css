@@ -1,0 +1,117 @@
+.bookingform-header {
+  background-color: #f5f5f5;
+  padding: 20px;
+}
+
+.bookingform-section {
+  max-width: 600px;
+  margin: 0 auto;
+}
+
+.bookingform-form {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.bookingform-fieldset {
+  border: none;
+  padding: 0;
+  margin: 0;
+}
+
+.bookingform-bookdate-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-bottom: 20px;
+}
+
+.bookingform-bookdate-label {
+  font-size: 18px;
+  margin-bottom: 10px;
+}
+
+.bookingform-bookdate-input {
+  font-size: 16px;
+  padding: 10px;
+  border-radius: 5px;
+  border: 1px solid #ccc;
+}
+
+.bookingform-booktime {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-bottom: 20px;
+}
+
+.bookingform-booktime-label {
+  font-size: 18px;
+  margin-bottom: 10px;
+}
+
+.bookingform-booktime-select {
+  font-size: 16px;
+  padding: 10px;
+  border-radius: 5px;
+  border: 1px solid #ccc;
+}
+
+.bookingform-bookgeusts {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-bottom: 20px;
+}
+
+.bookingform-bookgeusts-label {
+  font-size: 18px;
+  margin-bottom: 10px;
+}
+
+.bookingform-bookgeusts-input {
+  font-size: 16px;
+  padding: 10px;
+  border-radius: 5px;
+  border: 1px solid #ccc;
+}
+
+.bookingform-bookoccasion {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-bottom: 20px;
+}
+
+.bookingform-bookoccasion-label {
+  font-size: 18px;
+  margin-bottom: 10px;
+}
+
+.bookingform-bookoccasion-select {
+  font-size: 16px;
+  padding: 10px;
+  border-radius: 5px;
+  border: 1px solid #ccc;
+}
+
+.bookingform-submit {
+  display: flex;
+  justify-content: center;
+}
+
+.bookingform-button {
+  font-size: 18px;
+  padding: 10px 20px;
+  border-radius: 5px;
+  border: none;
+  background-color: #f5ce14;
+  color: #000000;
+  cursor: pointer;
+}
+
+.bookingform-button:hover {
+  background-color: #c3a50f;
+  color: #fff;
+}
