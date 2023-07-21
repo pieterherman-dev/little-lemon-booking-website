@@ -1,0 +1,63 @@
+.menu {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  padding: 8rem 2rem;
+}
+
+.menu-header {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-family: "Markazi Text", serif;
+  padding: 1rem;
+}
+
+.menu-title {
+  font-weight: 500;
+  font-size: 50px;
+  color: #333;
+  margin-bottom: 1rem;
+  margin-right: 350px;
+}
+
+.menu-button {
+  font-family: "Karla", sans-serif;
+  font-weight: 800;
+  background-color: #f5ce14;
+  color: #333;
+  padding: 1rem 2rem;
+  border-radius: 15px;
+  width: 200px;
+  border: none;
+}
+
+@media (max-width: 768px) {
+    .menu {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        height: 100vh;
+        padding: 8rem 2rem;
+
+     
+  }
+
+  .menu-header {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: "Markazi Text", serif;
+    padding: 1rem;
+   }
+
+  .menu-title {
+    margin-right: auto;
+    text-align: left;
+  }
+
+  .menu-button {
+    margin-top: 0;
+  }
+}
